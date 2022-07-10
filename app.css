@@ -16,3 +16,37 @@ body {
     color: chartreuse;
     font-size: 1.5rem;
 }
+
+#heading h1 {
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+span {
+    color: chartreuse;
+}
+
+h2 {
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 2.5rem;
+}
+
+p {
+    color: whitesmoke;
+    font-weight: 100;
+    font-size: 1.125rem;
+}
+
+.content {
+    margin-top: 100px;
+}
+
+@media (max-width: 1200px) {
+    #heading h1 {
+        color: whitesmoke;
+        font-weight: 100;
+        font-size: 2rem;
+    }
+}
